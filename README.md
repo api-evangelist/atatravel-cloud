@@ -72,11 +72,71 @@ ATA Travel is an AI‑native travel platform that offers a no‑commission, AI�
 
 Everything profiled for ATA Travel is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/atatravel-cloud/](https://apis.io/providers/atatravel-cloud/)** — or go straight to one of the APIs or properties below.
 
+### APIs (4)
+
+- [ATA Travel Buildings API](https://apis.io/apis/atatravel-cloud/atatravel-cloud-buildings-api/) — Read published building and complex profiles.
+- [ATA Travel Commercial API](https://apis.io/apis/atatravel-cloud/atatravel-cloud-commercial-api/) — Read ATA public platform pricing.
+- [ATA Travel Discovery API](https://apis.io/apis/atatravel-cloud/atatravel-cloud-discovery-api/) — Search ATA public inventory and discovery facets.
+- [ATA Travel Properties API](https://apis.io/apis/atatravel-cloud/atatravel-cloud-properties-api/) — Read published property details and indicative availability.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Atatravel Cloud Agentic Access](https://apis.io/agentic-access/atatravel-cloud/atatravel-cloud-agentic-access/)
+
+#### JSON Schema (6)
+
+The data models the API reads and writes.
+
+- [AvailabilityCalendar](https://apis.io/schemas/atatravel-cloud/atatravel-cloud-availability-calendar/)
+- [BuildingSummary](https://apis.io/schemas/atatravel-cloud/atatravel-cloud-building-summary/)
+- [DiscoveryContext](https://apis.io/schemas/atatravel-cloud/atatravel-cloud-discovery-context/)
+- [DiscoveryResponse](https://apis.io/schemas/atatravel-cloud/atatravel-cloud-discovery-response/)
+- [PropertyDetail](https://apis.io/schemas/atatravel-cloud/atatravel-cloud-property-detail/)
+- [PropertySummary](https://apis.io/schemas/atatravel-cloud/atatravel-cloud-property-summary/)
+
+#### JSON-LD (1)
+
+Linked-data contexts for the provider's vocabulary.
+
+- [Atatravel Cloud Context](https://apis.io/jsonld/atatravel-cloud/atatravel-cloud-context/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [ATA Travel API Rules](https://apis.io/rules/atatravel-cloud/atatravel-cloud-rules/)
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Atatravel Cloud Authentication](https://apis.io/security/atatravel-cloud/atatravel-cloud-authentication/)
+- [Atatravel Cloud Domain Security](https://apis.io/security/atatravel-cloud/atatravel-cloud-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Atatravel Cloud Scopes](https://apis.io/scopes/atatravel-cloud/atatravel-cloud-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Atatravel Cloud Plans Pricing](https://apis.io/plans/atatravel-cloud/atatravel-cloud-plans-pricing/)
+
 ## Where to find this API
 
 Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://atatravel.cloud/)
+- [Documentation](https://atatravel.cloud/developers)
 - [API reference](https://atatravel.cloud/openapi.json)
 - [Pricing](https://atatravel.cloud/pricing)
 - [Sign up](https://atatravel.cloud/host-signup)
@@ -86,7 +146,47 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-Not yet rated. See [apis.io/providers/atatravel-cloud/](https://apis.io/providers/atatravel-cloud/).
+**Kin Score 54.5** — strong · rubric 0.26.0 · scored 2026-11-02
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 58.5 |
+| Contract governance | 79.1 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 37.4 |
+| Access clarity | 73.2 |
+
+**Agent readiness 33.2** — agent-ready
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | verified |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | flavored (partial credit) |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+| Pagination Ratio | — |
+| Operation Distinctiveness | distinct |
+| MCP Tool Quality | na |
+
+**Regulatory alignment 26.4** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/atatravel-cloud/](https://apis.io/providers/atatravel-cloud/).
 
 ## How this profile is made
 
